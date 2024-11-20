@@ -1,0 +1,113 @@
+
+/* General Styles */
+body {
+  font-family: "Comic Sans MS", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #000, #1e1e1e);
+  color: #fff;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Header */
+.header {
+  background: #000;
+  color: gold;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 1.8rem;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.cta {
+  background: linear-gradient(45deg, #6a5acd, #ff1493);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #4b0082, #000080);
+  color: #fff;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.hero h2 {
+  font-size: 3rem;
+}
+
+.hero .btn {
+  background: gold;
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+  color: #000;
+}
+
+/* Sections */
+section {
+  padding: 3rem 0;
+}
+
+.about, .services, .testimonials, .contact {
+  text-align: center;
+}
+
+.service-items, .testimonial-items {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.service-item, .testimonial-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+
+/* Contact Form */
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background: linear-gradient(45deg, #6a5acd, #ff1493);
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* Footer */
+.footer {
+  background: #000;
+  color: gold;
+  text-align: center;
+  padding: 1rem 0;
+}
